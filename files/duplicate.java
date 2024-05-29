@@ -1,9 +1,4 @@
-
-
-
-
-
-
+package files;
 import java.util.*;
 public class duplicate {
 

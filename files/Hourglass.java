@@ -1,3 +1,4 @@
+package files;
 import java.util.*;
 public class Hourglass {
     public static void main(String[] args) {

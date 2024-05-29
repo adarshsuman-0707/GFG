@@ -1,3 +1,4 @@
+package files;
 public class product {
     
     static void productArray(int arr[],int n){
