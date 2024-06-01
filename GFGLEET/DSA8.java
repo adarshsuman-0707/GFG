@@ -37,7 +37,7 @@ public class DSA8 {
         // System.out.println("Output: " + output);
   
    float String=23;
-   System.out.println(d);  
+
 }
 
 
