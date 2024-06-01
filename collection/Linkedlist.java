@@ -15,6 +15,7 @@ public class Linkedlist {
         all.addLast(00);
         all.removeFirst();
         all.removeLast();
+        
         for(int i=0;i<all.size();i++){
             System.out.print(all.get(i) + " ");
         }

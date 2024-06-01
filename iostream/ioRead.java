@@ -9,7 +9,7 @@ public class ioRead {
             FileOutputStream rea=new FileOutputStream("C:/GFG/check.txt");
                 String str="YH READING FILE HAI MST SIKHNE KA ";
                 // rea.write(str.getBytes());
-               byte b[]=new byte[rea.available()];
+               byte b[]=new byte[500];
                 rea.read(b);
                 rea.close();
             }
