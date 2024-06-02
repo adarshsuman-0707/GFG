@@ -2,7 +2,7 @@ package recursion;
 
 public class start {
     
-    static void message(int i){
+     void message(int i){
         if(i<=1){
             return;
         }
@@ -13,21 +13,24 @@ public class start {
         }
             message(i--);
     }
-    static boolean check(int n){
+    static boolean checkprime(int n){
         if(n<=1){
                 return true;
             }
-        for(int i=2;i<=Math.sqrt(n);i++){
+        for(int i=2;i<=n;i++){
+            if(n==i){
+                return true;
+            }
              if(n%i==0){return false; }
         }
 
         return true;
     }
-    public static void main(String[] args) {
-        
+    // public static void main(String[] args) {
+    start(){    
         // message(5);
 // here check prime number
-boolean s=check(4);
+boolean s=checkprime(12);
 System.out.println(s);
     }
 }
