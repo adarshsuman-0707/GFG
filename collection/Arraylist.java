@@ -12,7 +12,7 @@ public class Arraylist {
         arrlist.set(4,234323);
         System.out.println(arrlist);
         arrlist.remove(4);
-        Object arrli=arrlist.toArray();
+        // Object arrli=arrlist.toArray();
         for(Object arrl:arrlist){
             System.out.println(arrl);
         }
