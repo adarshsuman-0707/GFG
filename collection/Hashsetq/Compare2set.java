@@ -17,7 +17,7 @@ public class Compare2set {
 		set2.add("Orange");
 		set2.add("Pink");
 		System.out.println("Second HashSet : "+set2);
-		set1.retainAll(set2);
+		set1.retainAll(set2);//it's return the same value which is present in both set
 		System.out.println("HashSet content : "+set1);
     }
 }

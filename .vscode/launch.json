@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Swap",
+      "request": "launch",
+      "mainClass": "Swap",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "type": "java",
+      "name": "swap",
+      "request": "launch",
+      "mainClass": "swap",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "type": "java",
+      "name": "Mega",
+      "request": "launch",
+      "mainClass": "GUI.Mega",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "type": "java",
+      "name": "jtexfi",
+      "request": "launch",
+      "mainClass": "GUI.jtexfi",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "type": "java",
+      "name": "JTrees",
+      "request": "launch",
+      "mainClass": "GUI.JTrees",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "collection.Graph.BFS",
+      "projectName": "GFG_759c7590"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/GFG/Cplusplus",
+      "program": "c:/GFG/Cplusplus/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

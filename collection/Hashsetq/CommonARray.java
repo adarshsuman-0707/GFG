@@ -6,8 +6,19 @@ import java.util.*;
 public class CommonARray {
    
     public static int find(int nums[],int []nums2){
+        HashSet<Integer> set=new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            set.add(nums[i]);
+        }
+          for(int i=0;i<nums2.length;i++){
+            set.add(nums2[i]);
+        }
+        int minValue=Integer.MAX_VALUE;
+        for(int i:set){
+          minValue=  Math.min(minValue,i);
+        }
+      return minValue;
 
-        return 5;
         
     }
         public static void main(String[] args) {

@@ -30,7 +30,7 @@ public class start {
     start(){    
         // message(5);
 // here check prime number
-boolean s=checkprime(12);
+boolean s=checkprime(7);
 System.out.println(s);
     }
 }

@@ -11,8 +11,8 @@ public class newQues {
     s.add("Green");
     s.forEach((h)->System.out.println(h));
     s.clear();
-    System.out.println("kuch nhi mila khali hogya");
     s.forEach((h)->System.out.println(h));
+    System.out.println("kuch nhi mila khali hogya");
 
     }
 }

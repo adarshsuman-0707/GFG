@@ -1,14 +1,13 @@
 package Annotation;
-import java.util.*;
 class oldfile{
 
     public void display(){}
 }
 
 class fileshow extends oldfile{
-    @Override
+    // @Override
     public void display(){}
-    @Deprecated
+    // @Deprecated
     public void show(){
         System.out.println("hi");
     }
@@ -20,7 +19,7 @@ public class file{
     public static void main(String[] args) {
      
         fileshow f1=new fileshow();
-            f1.show();
+            f1.display();
     }
 
 }

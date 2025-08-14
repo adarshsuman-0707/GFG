@@ -10,11 +10,11 @@ public class copyHashmap {
         System.out.println(map);
         HashMap<Integer,String> map1=new HashMap<>();
         
-        map.put(4,"anuj");
-        map.put(5,"jain");
-        map.put(6,"nice");
+        map1.put(4,"anuj");
+        map1.put(5,"jain");
+        map1.put(6,"nice");
         System.out.println(map1);
-        // map.putAll(map1);
+        map.putAll(map1);
         System.out.println(map );
         map.clear();
         System.out.println(map);

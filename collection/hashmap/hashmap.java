@@ -4,7 +4,7 @@ import java.util.*;
 public class hashmap {
     static void majority(int nums[]){
         HashMap <Integer,Integer> set =new HashMap<>();
-        int n=nums.length;
+        int n=3;
      
             for(int i=0;i<n;i++){
             if(set.containsKey(nums[i])){

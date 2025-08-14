@@ -42,7 +42,7 @@ class HelloWorld {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 3,1,7,11};
+        int arr[] = { 4,2,1,7,11};
         boolean ans = checkIfExist(arr);
         System.out.println(ans);
     }
